@@ -1368,3 +1368,590 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.10.09-17.49.26:145][135]PIE: Warning: AttachTo: '/Engine/Transient.World_6:PersistentLevel.FbxScene_Vest_Medium_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_Vest_Medium"), cannot attach '/Engine/Transient.World_6:PersistentLevel.FbxScene_Vest_Medium_C_0.pCube3' which is static to it. Aborting.
 [2025.10.09-17.49.31:175][630]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_7
 [2025.10.09-17.49.31:221][631]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_8
+[2025.10.09-17.50.19:149][393]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7802.157227
+[2025.10.09-17.50.20:149][396]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.09-17.50.20:149][397]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7802.823242, Update Interval: 314.467590
+[2025.10.09-17.56.12:726][536]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8155.803711
+[2025.10.09-17.56.12:760][540]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.09-17.56.12:760][540]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8155.830078, Update Interval: 327.854858
+[2025.10.09-17.57.17:389][420]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Realtek Digital Output (Realtek(R) Audio), InstanceID=1
+[2025.10.09-17.57.17:389][420]LogAudioMixer: Display: Attempt to swap audio render device to new device: '{0.0.0.00000000}.{0016f072-48b7-4d91-a6f4-2702783000b1}', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2025.10.09-17.57.17:401][421]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [{0.0.0.00000000}.{0016f072-48b7-4d91-a6f4-2702783000b1}]
+[2025.10.09-17.57.17:401][421]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2025.10.09-17.57.17:401][421]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2025.10.09-17.57.17:566][438]LogAudioMixer: Display: FMixerPlatformXAudio2::PostDeviceSwap - successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{0016f072-48b7-4d91-a6f4-2702783000b1}, Name=Realtek Digital Output (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=157.89
+[2025.10.09-17.57.17:566][438]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2025.10.09-17.57.17:566][438]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.10.09-17.57.17:568][438]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.10.09-17.58.16:085][623]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=LG HDR 4K (NVIDIA High Definition Audio), InstanceID=1
+[2025.10.09-17.58.16:085][623]LogAudioMixer: Display: Attempt to swap audio render device to new device: '{0.0.0.00000000}.{0879da9d-66f5-410d-93f4-53fbcfc2aacf}', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2025.10.09-17.58.16:087][624]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [{0.0.0.00000000}.{0879da9d-66f5-410d-93f4-53fbcfc2aacf}]
+[2025.10.09-17.58.16:087][624]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2025.10.09-17.58.16:087][624]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2025.10.09-17.58.16:192][634]LogAudioMixer: Display: FMixerPlatformXAudio2::PostDeviceSwap - successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{0879da9d-66f5-410d-93f4-53fbcfc2aacf}, Name=LG HDR 4K (NVIDIA High Definition Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=95.42
+[2025.10.09-17.58.16:192][634]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2025.10.09-17.58.16:192][634]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.10.09-17.58.16:194][634]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.10.09-17.59.38:287][264]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2025.10.09-18.02.16:394][306]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8519.263672
+[2025.10.09-18.02.16:452][312]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.09-18.02.16:452][312]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8519.310547, Update Interval: 322.905365
+[2025.10.09-18.03.04:760][961]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2025.10.09-18.04.19:720][424]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.09-18.04.19:727][424]LogContentBundle: [Tutorial_GreyBoxing(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.10.09-18.04.19:727][424]LogWorldPartition: Display: GenerateStreaming for 'Tutorial_GreyBoxing' started...
+[2025.10.09-18.04.19:728][424]LogWorldPartition: Display: GenerateStreaming for 'Tutorial_GreyBoxing' took 1.432 ms
+[2025.10.09-18.04.19:728][424]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.09-18.04.19:734][424]LogOnline: OSS: Created online subsystem instance for: NULL
+[2025.10.09-18.04.19:734][424]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2025.10.09-18.04.19:734][424]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Tutorial_GreyBoxing
+[2025.10.09-18.04.19:738][424]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.10.09-18.04.19:739][424]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 803 us
+[2025.10.09-18.04.19:739][424]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005795s)
+[2025.10.09-18.04.19:739][424]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Tutorial_GreyBoxing.Tutorial_GreyBoxing to /Game/Levels/UEDPIE_0_Tutorial_GreyBoxing.Tutorial_GreyBoxing (0.005853s)
+[2025.10.09-18.04.19:767][424]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2025.10.09-18.04.19:772][424]LogChaosDD: Creating Chaos Debug Draw Scene for world Tutorial_GreyBoxing
+[2025.10.09-18.04.19:774][424]LogWorldPartition: ULevel::OnLevelLoaded(Tutorial_GreyBoxing)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.10.09-18.04.19:774][424]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.09-18.04.19:774][424]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Levels/UEDPIE_0_Tutorial_GreyBoxing.Tutorial_GreyBoxing, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.09-18.04.19:774][424]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.10.09-18.04.19:775][424]LogWorldPartition: Display: WorldPartition initialize took 1.318 ms (total: 160.067 ms)
+[2025.10.09-18.04.19:775][424]LogPlayLevel: PIE: World Init took: (0.003227s)
+[2025.10.09-18.04.19:776][424]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2025.10.09-18.04.19:776][424]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.09-18.04.19:776][424]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.09-18.04.19:776][424]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.09-18.04.19:776][424]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.09-18.04.19:776][424]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.09-18.04.19:776][424]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.09-18.04.19:776][424]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.09-18.04.19:776][424]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.09-18.04.19:776][424]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.09-18.04.19:776][424]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.09-18.04.19:776][424]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.09-18.04.19:778][424]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.09-18.04.19:807][424]LogAudioMixer: Display: Using Audio Hardware Device LG HDR 4K (NVIDIA High Definition Audio)
+[2025.10.09-18.04.19:807][424]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.09-18.04.19:807][424]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.09-18.04.19:807][424]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.09-18.04.19:808][424]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2025.10.09-18.04.19:808][424]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2025.10.09-18.04.19:809][424]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2025.10.09-18.04.19:809][424]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2025.10.09-18.04.19:809][424]LogInit: FAudioDevice initialized with ID 2.
+[2025.10.09-18.04.19:810][424]LogAudio: Display: Audio Device (ID: 2) registered with world 'Tutorial_GreyBoxing'.
+[2025.10.09-18.04.19:810][424]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2025.10.09-18.04.19:817][424]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.10.09-18.04.19:819][424]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Tutorial_GreyBoxing.Tutorial_GreyBoxing up for play (max tick rate 0) at 2025.10.09-14.04.19
+[2025.10.09-18.04.19:819][424]LogWorld: Bringing up level for play took: 0.001739
+[2025.10.09-18.04.19:821][424]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2025.10.09-18.04.19:828][424]PIE: Server logged in
+[2025.10.09-18.04.19:830][424]PIE: Play in editor total start time 0.103 seconds.
+[2025.10.09-18.04.19:889][425]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.10.09-18.04.20:624][490]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Attacked
+[2025.10.09-18.04.25:442][963]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.09-18.04.25:442][963]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Tutorial_GreyBoxing
+[2025.10.09-18.04.25:442][963]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.10.09-18.04.25:442][963]LogWorld: UWorld::CleanupWorld for Tutorial_GreyBoxing, bSessionEnded=true, bCleanupResources=true
+[2025.10.09-18.04.25:443][963]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-18.04.25:443][963]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Levels/UEDPIE_0_Tutorial_GreyBoxing.Tutorial_GreyBoxing
+[2025.10.09-18.04.25:445][963]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.09-18.04.25:448][963]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-18.04.25:470][963]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.09-18.04.25:471][963]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2025.10.09-18.04.25:471][963]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=4
+[2025.10.09-18.04.25:472][963]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=2
+[2025.10.09-18.04.25:479][963]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2025.10.09-18.04.25:565][964]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2025.10.09-18.05.20:885][840]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2025.10.09-18.05.20:893][840]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/3/IE/VF51ZNF3T8OD7Z9ZZPCOAO_Auto3
+[2025.10.09-18.05.20:894][840]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/VF51ZNF3T8OD7Z9ZZPCOAO_Auto3E89D2D914AFDD9F631F17C8D129B6163.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/3/IE/VF51ZNF3T8OD7Z9ZZPCOAO_Auto3.uasset'
+[2025.10.09-18.05.20:898][840]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/5/L6/I1A33A8TH66K5ZS914G9RU_Auto3
+[2025.10.09-18.05.20:899][840]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/I1A33A8TH66K5ZS914G9RU_Auto319D934514D6BEC0555FCDBA8EF651EA5.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/5/L6/I1A33A8TH66K5ZS914G9RU_Auto3.uasset'
+[2025.10.09-18.05.20:903][840]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/6/ZB/W3LPQ0V1XCFWUFZUYEDKJZ_Auto3
+[2025.10.09-18.05.20:904][840]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/W3LPQ0V1XCFWUFZUYEDKJZ_Auto31E2AEA2246BF25FA081DA8AA8098033F.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/6/ZB/W3LPQ0V1XCFWUFZUYEDKJZ_Auto3.uasset'
+[2025.10.09-18.05.20:908][840]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/A/5Z/R5NAEKGZTIPJOESGQLQUKI_Auto3
+[2025.10.09-18.05.20:908][840]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/R5NAEKGZTIPJOESGQLQUKI_Auto3E643E2194B3977712F849BA03D3848C2.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/A/5Z/R5NAEKGZTIPJOESGQLQUKI_Auto3.uasset'
+[2025.10.09-18.05.20:913][840]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/B/J5/5XDEAW2W8AH0DSSBZMHWCI_Auto3
+[2025.10.09-18.05.20:914][840]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/5XDEAW2W8AH0DSSBZMHWCI_Auto35F433DD744838C0E26E3468316F9E159.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/B/J5/5XDEAW2W8AH0DSSBZMHWCI_Auto3.uasset'
+[2025.10.09-18.05.20:918][840]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/D/7R/J6JJ4UVK7FO2S1R13A36RF_Auto3
+[2025.10.09-18.05.20:918][840]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/J6JJ4UVK7FO2S1R13A36RF_Auto3FF19E5054B4E0F28E8269F9175D4249A.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/D/7R/J6JJ4UVK7FO2S1R13A36RF_Auto3.uasset'
+[2025.10.09-18.05.20:923][840]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/E/AL/1JATGOIIN8CWF4PBU7FIQM_Auto3
+[2025.10.09-18.05.20:923][840]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/1JATGOIIN8CWF4PBU7FIQM_Auto31F91B64E40DC02F0C4800FB0FF1432D4.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/E/AL/1JATGOIIN8CWF4PBU7FIQM_Auto3.uasset'
+[2025.10.09-18.05.20:927][840]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/2/KP/Z69XR0H3I49QGKG3DURR34_Auto3
+[2025.10.09-18.05.20:928][840]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Z69XR0H3I49QGKG3DURR34_Auto310A0FC52419594E0C6FE76B035AB599D.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/2/KP/Z69XR0H3I49QGKG3DURR34_Auto3.uasset'
+[2025.10.09-18.05.20:933][840]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/C/ES/W23GSLDSZN5WSMIOWUBWCW_Auto3
+[2025.10.09-18.05.20:933][840]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/W23GSLDSZN5WSMIOWUBWCW_Auto3270321844E458ACFEFF9B8ADC5C34D18.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/C/ES/W23GSLDSZN5WSMIOWUBWCW_Auto3.uasset'
+[2025.10.09-18.05.20:938][840]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/3/XE/DUWTSRBU4ARDFNAH6VP2R2_Auto3
+[2025.10.09-18.05.20:939][840]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/DUWTSRBU4ARDFNAH6VP2R2_Auto3D21ACAF448BEA4E3D72BB7B8EE11A3D4.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/3/XE/DUWTSRBU4ARDFNAH6VP2R2_Auto3.uasset'
+[2025.10.09-18.05.20:944][840]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/E/7X/B215TCICXEMY1GC51NWC7A_Auto3
+[2025.10.09-18.05.20:944][840]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/B215TCICXEMY1GC51NWC7A_Auto3D4FFDB934EDB087E7F375D8A5EA42906.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/E/7X/B215TCICXEMY1GC51NWC7A_Auto3.uasset'
+[2025.10.09-18.05.20:945][840]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Tutorial_GreyBoxing' took 0.083
+[2025.10.09-18.05.20:945][840]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.083
+[2025.10.09-18.07.21:790][526]Cmd: TRANSACTION UNDO
+[2025.10.09-18.07.21:790][526]LogEditorTransaction: Undo Scale Elements
+[2025.10.09-18.07.26:458][899]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2025.10.09-18.07.58:004][686]Cmd: TRANSACTION UNDO
+[2025.10.09-18.07.58:004][686]LogEditorTransaction: Undo Move Elements
+[2025.10.09-18.08.07:865][523]Cmd: DELETE
+[2025.10.09-18.08.07:865][523]Cmd: ACTOR DELETE
+[2025.10.09-18.08.07:867][523]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.09-18.08.07:896][523]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2025.10.09-18.08.07:900][523]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2025.10.09-18.08.36:629][ 95]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8899.696289
+[2025.10.09-18.08.36:683][100]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.09-18.08.36:683][100]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8899.739258, Update Interval: 321.065094
+[2025.10.09-18.13.59:068][894]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.09-18.13.59:075][894]LogContentBundle: [Tutorial_GreyBoxing(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.10.09-18.13.59:075][894]LogWorldPartition: Display: GenerateStreaming for 'Tutorial_GreyBoxing' started...
+[2025.10.09-18.13.59:076][894]LogWorldPartition: Display: GenerateStreaming for 'Tutorial_GreyBoxing' took 1.696 ms (total: 3.129 ms)
+[2025.10.09-18.13.59:076][894]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.09-18.13.59:102][894]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Tutorial_GreyBoxing
+[2025.10.09-18.13.59:107][894]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.10.09-18.13.59:108][894]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 916 us (total: 1.720 ms)
+[2025.10.09-18.13.59:108][894]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006097s)
+[2025.10.09-18.13.59:109][894]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Tutorial_GreyBoxing.Tutorial_GreyBoxing to /Game/Levels/UEDPIE_0_Tutorial_GreyBoxing.Tutorial_GreyBoxing (0.006135s)
+[2025.10.09-18.13.59:135][894]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2025.10.09-18.13.59:138][894]LogChaosDD: Creating Chaos Debug Draw Scene for world Tutorial_GreyBoxing
+[2025.10.09-18.13.59:140][894]LogWorldPartition: ULevel::OnLevelLoaded(Tutorial_GreyBoxing)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.10.09-18.13.59:140][894]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.09-18.13.59:140][894]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Levels/UEDPIE_0_Tutorial_GreyBoxing.Tutorial_GreyBoxing, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.09-18.13.59:140][894]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.10.09-18.13.59:142][894]LogWorldPartition: Display: WorldPartition initialize took 1.220 ms (total: 161.288 ms)
+[2025.10.09-18.13.59:142][894]LogPlayLevel: PIE: World Init took: (0.002972s)
+[2025.10.09-18.13.59:142][894]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2025.10.09-18.13.59:142][894]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.09-18.13.59:142][894]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.09-18.13.59:142][894]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.09-18.13.59:142][894]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.09-18.13.59:142][894]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.09-18.13.59:142][894]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.09-18.13.59:142][894]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.09-18.13.59:142][894]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.09-18.13.59:142][894]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.09-18.13.59:142][894]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.09-18.13.59:142][894]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.09-18.13.59:145][894]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.09-18.13.59:176][894]LogAudioMixer: Display: Using Audio Hardware Device LG HDR 4K (NVIDIA High Definition Audio)
+[2025.10.09-18.13.59:177][894]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.09-18.13.59:177][894]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.09-18.13.59:177][894]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.09-18.13.59:177][894]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2025.10.09-18.13.59:177][894]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2025.10.09-18.13.59:179][894]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2025.10.09-18.13.59:179][894]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2025.10.09-18.13.59:179][894]LogInit: FAudioDevice initialized with ID 3.
+[2025.10.09-18.13.59:179][894]LogAudio: Display: Audio Device (ID: 3) registered with world 'Tutorial_GreyBoxing'.
+[2025.10.09-18.13.59:179][894]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2025.10.09-18.13.59:183][894]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.10.09-18.13.59:185][894]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Tutorial_GreyBoxing.Tutorial_GreyBoxing up for play (max tick rate 0) at 2025.10.09-14.13.59
+[2025.10.09-18.13.59:185][894]LogWorld: Bringing up level for play took: 0.002005
+[2025.10.09-18.13.59:188][894]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2025.10.09-18.13.59:191][894]PIE: Server logged in
+[2025.10.09-18.13.59:193][894]PIE: Play in editor total start time 0.118 seconds.
+[2025.10.09-18.13.59:242][895]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.10.09-18.13.59:763][944]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Attacked
+[2025.10.09-18.14.36:153][521]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.09-18.14.36:153][521]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Tutorial_GreyBoxing
+[2025.10.09-18.14.36:153][521]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.10.09-18.14.36:153][521]LogWorld: UWorld::CleanupWorld for Tutorial_GreyBoxing, bSessionEnded=true, bCleanupResources=true
+[2025.10.09-18.14.36:154][521]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-18.14.36:154][521]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Levels/UEDPIE_0_Tutorial_GreyBoxing.Tutorial_GreyBoxing
+[2025.10.09-18.14.36:156][521]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.09-18.14.36:160][521]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-18.14.36:185][521]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.09-18.14.36:186][521]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2025.10.09-18.14.36:186][521]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=4
+[2025.10.09-18.14.36:187][521]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=2
+[2025.10.09-18.14.36:196][521]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.10.09-18.14.36:285][522]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2025.10.09-18.14.56:725][343]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9279.780273
+[2025.10.09-18.14.56:771][347]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.09-18.14.56:771][347]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9279.815430, Update Interval: 336.581940
+[2025.10.09-18.16.52:336][648]Cmd: DELETE
+[2025.10.09-18.16.52:336][648]Cmd: ACTOR DELETE
+[2025.10.09-18.16.52:337][648]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.09-18.16.52:363][648]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.10.09-18.16.52:366][648]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2025.10.09-18.17.16:983][880]LogNavigation: Warning: FNavigationOctree::AddNode: Empty bounds, ignoring StaticMeshComponent /Game/Levels/Tutorial_GreyBoxing.Tutorial_GreyBoxing:PersistentLevel.StaticMeshActor_UAID_7486E222EF66C69602_1416358752.StaticMeshComponent0.
+[2025.10.09-18.17.23:454][476]Cmd: TRANSACTION UNDO
+[2025.10.09-18.17.23:454][476]LogEditorTransaction: Undo Scale Elements
+[2025.10.09-18.17.29:941][ 26]Cmd: TRANSACTION UNDO
+[2025.10.09-18.17.29:941][ 26]LogEditorTransaction: Undo Scale Elements
+[2025.10.09-18.17.31:258][ 97]Cmd: TRANSACTION UNDO
+[2025.10.09-18.17.31:258][ 97]LogEditorTransaction: Undo Scale Elements
+[2025.10.09-18.17.36:308][530]Cmd: TRANSACTION UNDO
+[2025.10.09-18.17.36:308][530]LogEditorTransaction: Undo Scale Elements
+[2025.10.09-18.17.38:143][656]Cmd: TRANSACTION UNDO
+[2025.10.09-18.17.38:143][656]LogEditorTransaction: Undo Scale Elements
+[2025.10.09-18.17.53:630][ 15]Cmd: TRANSACTION UNDO
+[2025.10.09-18.17.53:630][ 15]LogEditorTransaction: Undo Scale Elements
+[2025.10.09-18.18.14:982][888]Cmd: DELETE
+[2025.10.09-18.18.14:983][888]Cmd: ACTOR DELETE
+[2025.10.09-18.18.14:984][888]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.09-18.18.15:016][888]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.10.09-18.18.15:020][888]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2025.10.09-18.18.16:345][  9]Cmd: DELETE
+[2025.10.09-18.18.16:345][  9]Cmd: ACTOR DELETE
+[2025.10.09-18.18.16:347][  9]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.09-18.18.16:373][  9]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2025.10.09-18.18.16:376][  9]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2025.10.09-18.18.46:592][846]Cmd: DELETE
+[2025.10.09-18.18.46:592][846]Cmd: ACTOR DELETE
+[2025.10.09-18.18.46:593][846]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.09-18.18.46:620][846]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.10.09-18.18.46:623][846]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2025.10.09-18.18.47:268][896]Cmd: DELETE
+[2025.10.09-18.18.47:268][896]Cmd: ACTOR DELETE
+[2025.10.09-18.18.47:269][896]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.09-18.18.47:293][896]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2025.10.09-18.18.47:295][896]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2025.10.09-18.18.47:740][925]Cmd: DELETE
+[2025.10.09-18.18.47:740][925]Cmd: ACTOR DELETE
+[2025.10.09-18.18.47:742][925]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.09-18.18.47:767][925]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2025.10.09-18.18.47:769][925]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2025.10.09-18.18.48:460][978]Cmd: DELETE
+[2025.10.09-18.18.48:460][978]Cmd: ACTOR DELETE
+[2025.10.09-18.18.48:462][978]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.09-18.18.48:485][978]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2025.10.09-18.18.48:486][978]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2025.10.09-18.18.48:860][999]Cmd: DELETE
+[2025.10.09-18.18.48:860][999]Cmd: ACTOR DELETE
+[2025.10.09-18.18.48:862][999]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.09-18.18.48:887][999]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2025.10.09-18.18.48:889][999]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2025.10.09-18.19.14:568][569]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.10.09-18.19.14:578][569]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/8/K0/3YZW0DRCAMNMLPBMEAOW4Z_Auto4
+[2025.10.09-18.19.14:578][569]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/3YZW0DRCAMNMLPBMEAOW4Z_Auto4F0B759F84BF193DB7B94E7A6BE910929.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/8/K0/3YZW0DRCAMNMLPBMEAOW4Z_Auto4.uasset'
+[2025.10.09-18.19.14:582][569]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/0/SG/I4WYL5YRPSUHKU0VJQIM6D_Auto4
+[2025.10.09-18.19.14:582][569]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/I4WYL5YRPSUHKU0VJQIM6D_Auto44719C7CB4878100EEA912BBC26BE30E5.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/0/SG/I4WYL5YRPSUHKU0VJQIM6D_Auto4.uasset'
+[2025.10.09-18.19.14:589][569]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/3/G4/XW4TUO766529UB24NKW2FU_Auto4
+[2025.10.09-18.19.14:589][569]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/XW4TUO766529UB24NKW2FU_Auto43CAF067C4280C1C90C6CB3A5E65E61CD.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/3/G4/XW4TUO766529UB24NKW2FU_Auto4.uasset'
+[2025.10.09-18.19.14:593][569]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/3/IE/VF51ZNF3T8OD7Z9ZZPCOAO_Auto4
+[2025.10.09-18.19.14:593][569]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/VF51ZNF3T8OD7Z9ZZPCOAO_Auto47B1530804CA92ED89CB00AB89B7ACB8C.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/3/IE/VF51ZNF3T8OD7Z9ZZPCOAO_Auto4.uasset'
+[2025.10.09-18.19.14:598][569]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/3/OW/OAD6YDULIPJYNZTFJVFVES_Auto4
+[2025.10.09-18.19.14:598][569]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/OAD6YDULIPJYNZTFJVFVES_Auto45EE1157944E3D41D187972A4B758EB62.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/3/OW/OAD6YDULIPJYNZTFJVFVES_Auto4.uasset'
+[2025.10.09-18.19.14:602][569]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/4/RX/MA5QXAKJYV2YHY74ZF1LVI_Auto4
+[2025.10.09-18.19.14:602][569]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/MA5QXAKJYV2YHY74ZF1LVI_Auto454778D7E4278017F62C7CE9798867FCC.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/4/RX/MA5QXAKJYV2YHY74ZF1LVI_Auto4.uasset'
+[2025.10.09-18.19.14:607][569]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/4/S1/MIM2ITGFWA3F0FI6F6GRPS_Auto4
+[2025.10.09-18.19.14:607][569]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/MIM2ITGFWA3F0FI6F6GRPS_Auto4FFE52C974B6E7D01E4A0B0A0DA4A0E7C.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/4/S1/MIM2ITGFWA3F0FI6F6GRPS_Auto4.uasset'
+[2025.10.09-18.19.14:611][569]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/5/L6/I1A33A8TH66K5ZS914G9RU_Auto4
+[2025.10.09-18.19.14:611][569]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/I1A33A8TH66K5ZS914G9RU_Auto4D9DEEE1A44BD506D2B7E30AC43601546.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/5/L6/I1A33A8TH66K5ZS914G9RU_Auto4.uasset'
+[2025.10.09-18.19.14:616][569]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/6/ZB/W3LPQ0V1XCFWUFZUYEDKJZ_Auto4
+[2025.10.09-18.19.14:616][569]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/W3LPQ0V1XCFWUFZUYEDKJZ_Auto4644277614730D8AB3A61849E34F865CC.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/6/ZB/W3LPQ0V1XCFWUFZUYEDKJZ_Auto4.uasset'
+[2025.10.09-18.19.14:621][569]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/A/5Z/R5NAEKGZTIPJOESGQLQUKI_Auto4
+[2025.10.09-18.19.14:621][569]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/R5NAEKGZTIPJOESGQLQUKI_Auto4C241B17841EB6D6772F16A8FFF52FDC7.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/A/5Z/R5NAEKGZTIPJOESGQLQUKI_Auto4.uasset'
+[2025.10.09-18.19.14:626][569]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/B/J5/5XDEAW2W8AH0DSSBZMHWCI_Auto4
+[2025.10.09-18.19.14:626][569]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/5XDEAW2W8AH0DSSBZMHWCI_Auto42F698D2E47A151E564CD9BAA2371290C.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/B/J5/5XDEAW2W8AH0DSSBZMHWCI_Auto4.uasset'
+[2025.10.09-18.19.14:630][569]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/D/7R/J6JJ4UVK7FO2S1R13A36RF_Auto4
+[2025.10.09-18.19.14:630][569]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/J6JJ4UVK7FO2S1R13A36RF_Auto46C4A396541822154C7068694151EF54A.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/D/7R/J6JJ4UVK7FO2S1R13A36RF_Auto4.uasset'
+[2025.10.09-18.19.14:634][569]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/D/O8/JICFSPVX3X2WTORCM7RSL8_Auto4
+[2025.10.09-18.19.14:634][569]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/JICFSPVX3X2WTORCM7RSL8_Auto4CFA05D14438243D0E4798EBAFD30BE5F.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/D/O8/JICFSPVX3X2WTORCM7RSL8_Auto4.uasset'
+[2025.10.09-18.19.14:639][569]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/E/AL/1JATGOIIN8CWF4PBU7FIQM_Auto4
+[2025.10.09-18.19.14:639][569]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/1JATGOIIN8CWF4PBU7FIQM_Auto48EFFF0C24843AB62CEA4E2A78C53F209.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/E/AL/1JATGOIIN8CWF4PBU7FIQM_Auto4.uasset'
+[2025.10.09-18.19.14:643][569]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/2/KP/Z69XR0H3I49QGKG3DURR34_Auto4
+[2025.10.09-18.19.14:643][569]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Z69XR0H3I49QGKG3DURR34_Auto4BBA299CA41311D3ED1F6DAA888D5983E.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/2/KP/Z69XR0H3I49QGKG3DURR34_Auto4.uasset'
+[2025.10.09-18.19.14:647][569]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/C/ES/W23GSLDSZN5WSMIOWUBWCW_Auto4
+[2025.10.09-18.19.14:648][569]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/W23GSLDSZN5WSMIOWUBWCW_Auto468175666496D8B000B2BEEB3D32F7EC1.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/C/ES/W23GSLDSZN5WSMIOWUBWCW_Auto4.uasset'
+[2025.10.09-18.19.14:653][569]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/3/XE/DUWTSRBU4ARDFNAH6VP2R2_Auto4
+[2025.10.09-18.19.14:653][569]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/DUWTSRBU4ARDFNAH6VP2R2_Auto47751B3AF4424B7B5DF22E386BF8C813A.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/3/XE/DUWTSRBU4ARDFNAH6VP2R2_Auto4.uasset'
+[2025.10.09-18.19.14:660][569]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/E/7X/B215TCICXEMY1GC51NWC7A_Auto4
+[2025.10.09-18.19.14:660][569]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/B215TCICXEMY1GC51NWC7A_Auto4E7FB505A44205333FBA129BA1A144C24.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/E/7X/B215TCICXEMY1GC51NWC7A_Auto4.uasset'
+[2025.10.09-18.19.14:665][569]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/C/63/51XSXJ398ZCAYIWBTHRAV7_Auto4
+[2025.10.09-18.19.14:665][569]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/51XSXJ398ZCAYIWBTHRAV7_Auto4610B425A4714EE0E372F91ABC275E6BD.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/C/63/51XSXJ398ZCAYIWBTHRAV7_Auto4.uasset'
+[2025.10.09-18.19.14:669][569]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/D/I3/K4YHVE4XOU549JMKKM8HMM_Auto4
+[2025.10.09-18.19.14:669][569]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/K4YHVE4XOU549JMKKM8HMM_Auto4A5EAE83445E547F6F1ECF9BA1106703A.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/D/I3/K4YHVE4XOU549JMKKM8HMM_Auto4.uasset'
+[2025.10.09-18.19.14:672][569]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/0/UP/7HQB2TOQP7OLHCJZPF0HB7_Auto4
+[2025.10.09-18.19.14:672][569]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/7HQB2TOQP7OLHCJZPF0HB7_Auto4B7761A8B46B990CDB77FA2A2E327BBD4.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/0/UP/7HQB2TOQP7OLHCJZPF0HB7_Auto4.uasset'
+[2025.10.09-18.19.14:676][569]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/7/1Q/YWJ0282QT4R3ML8483LPWI_Auto4
+[2025.10.09-18.19.14:676][569]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/YWJ0282QT4R3ML8483LPWI_Auto4467182154293BEFE12AB5CB7200CA3AA.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/7/1Q/YWJ0282QT4R3ML8483LPWI_Auto4.uasset'
+[2025.10.09-18.19.14:680][569]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/3/LY/3IO11DLN9W10X8Y8JDMYL3_Auto4
+[2025.10.09-18.19.14:680][569]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/3IO11DLN9W10X8Y8JDMYL3_Auto45EC55ABD4BEE152A93195FBAC7DA2D17.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/3/LY/3IO11DLN9W10X8Y8JDMYL3_Auto4.uasset'
+[2025.10.09-18.19.14:684][569]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/1/33/8KPN6FOOVE6JD2ZQA8CX7W_Auto4
+[2025.10.09-18.19.14:684][569]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/8KPN6FOOVE6JD2ZQA8CX7W_Auto41924931246A53E211CBEB3AB3A100D8D.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/1/33/8KPN6FOOVE6JD2ZQA8CX7W_Auto4.uasset'
+[2025.10.09-18.19.14:689][569]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/C/VO/ZGRRBQR2X5BGRT6TOH4647_Auto4
+[2025.10.09-18.19.14:689][569]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/ZGRRBQR2X5BGRT6TOH4647_Auto4759989D349ED1FCABB3C1D8B9417B9F6.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/C/VO/ZGRRBQR2X5BGRT6TOH4647_Auto4.uasset'
+[2025.10.09-18.19.14:692][569]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/B/LL/Q8MMROTL1JRVVY81ED4CAF_Auto4
+[2025.10.09-18.19.14:692][569]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Q8MMROTL1JRVVY81ED4CAF_Auto4525E28CA49982D2696FB5C859F02B5A6.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/B/LL/Q8MMROTL1JRVVY81ED4CAF_Auto4.uasset'
+[2025.10.09-18.19.14:695][569]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/D/FR/869YQQL8LMW7FUG1DOQI13_Auto4
+[2025.10.09-18.19.14:695][569]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/869YQQL8LMW7FUG1DOQI13_Auto48D480CAE4BBEE6802CE5889E092E62D6.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/D/FR/869YQQL8LMW7FUG1DOQI13_Auto4.uasset'
+[2025.10.09-18.19.14:699][569]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/2/2W/JP209Q4KJXLYBD5YDNJ71G_Auto4
+[2025.10.09-18.19.14:699][569]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/JP209Q4KJXLYBD5YDNJ71G_Auto47996D7BD427A5743AA99029D831410BC.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/2/2W/JP209Q4KJXLYBD5YDNJ71G_Auto4.uasset'
+[2025.10.09-18.19.14:703][569]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/3/3O/QDS72OCRGVK82OCMOD9V5H_Auto4
+[2025.10.09-18.19.14:703][569]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/QDS72OCRGVK82OCMOD9V5H_Auto415AD5BDB41C9B69D0F30C89F613611F4.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/3/3O/QDS72OCRGVK82OCMOD9V5H_Auto4.uasset'
+[2025.10.09-18.19.14:706][569]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/B/DE/E52DQWWZX4QHIS0I8CAW5X_Auto4
+[2025.10.09-18.19.14:706][569]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/E52DQWWZX4QHIS0I8CAW5X_Auto4CD42D90648BECEAE48A714B396B63CDA.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/B/DE/E52DQWWZX4QHIS0I8CAW5X_Auto4.uasset'
+[2025.10.09-18.19.14:712][569]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/6/04/4KO9Y6EKZ0RDFJKE9DBK9S_Auto4
+[2025.10.09-18.19.14:712][569]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/4KO9Y6EKZ0RDFJKE9DBK9S_Auto40B482BA440D4B7792A244E8D23FF918A.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/6/04/4KO9Y6EKZ0RDFJKE9DBK9S_Auto4.uasset'
+[2025.10.09-18.19.14:717][569]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/9/3Y/QQL3RB22MF8DGMKD5TJRP0_Auto4
+[2025.10.09-18.19.14:717][569]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/QQL3RB22MF8DGMKD5TJRP0_Auto405FFE89949DE58AF8F094EA1A17EFC56.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/9/3Y/QQL3RB22MF8DGMKD5TJRP0_Auto4.uasset'
+[2025.10.09-18.19.14:721][569]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/1/UL/KPDXPOH2OSP8JNJ729WH8B_Auto4
+[2025.10.09-18.19.14:721][569]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/KPDXPOH2OSP8JNJ729WH8B_Auto40106445D46227B8CBBBEAA8498771CB4.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Autosaves/Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/1/UL/KPDXPOH2OSP8JNJ729WH8B_Auto4.uasset'
+[2025.10.09-18.19.14:722][569]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Tutorial_GreyBoxing' took 0.176
+[2025.10.09-18.19.14:722][569]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.176
+[2025.10.09-18.21.18:212][293]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2025.10.09-18.21.27:747][126]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9671.386719
+[2025.10.09-18.21.27:822][133]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.09-18.21.27:822][134]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9671.451172, Update Interval: 349.125031
+[2025.10.09-18.21.56:521][576]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.09-18.21.56:527][576]LogContentBundle: [Tutorial_GreyBoxing(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.10.09-18.21.56:527][576]LogWorldPartition: Display: GenerateStreaming for 'Tutorial_GreyBoxing' started...
+[2025.10.09-18.21.56:528][576]LogWorldPartition: Display: GenerateStreaming for 'Tutorial_GreyBoxing' took 1.562 ms (total: 4.692 ms)
+[2025.10.09-18.21.56:528][576]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.09-18.21.56:529][576]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Tutorial_GreyBoxing
+[2025.10.09-18.21.56:535][576]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.10.09-18.21.56:536][576]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 934 us (total: 2.654 ms)
+[2025.10.09-18.21.56:536][576]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006537s)
+[2025.10.09-18.21.56:536][576]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Tutorial_GreyBoxing.Tutorial_GreyBoxing to /Game/Levels/UEDPIE_0_Tutorial_GreyBoxing.Tutorial_GreyBoxing (0.006574s)
+[2025.10.09-18.21.56:560][576]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2025.10.09-18.21.56:562][576]LogChaosDD: Creating Chaos Debug Draw Scene for world Tutorial_GreyBoxing
+[2025.10.09-18.21.56:563][576]LogWorldPartition: ULevel::OnLevelLoaded(Tutorial_GreyBoxing)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.10.09-18.21.56:564][576]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.09-18.21.56:564][576]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Levels/UEDPIE_0_Tutorial_GreyBoxing.Tutorial_GreyBoxing, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.09-18.21.56:564][576]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.10.09-18.21.56:565][576]LogWorldPartition: Display: WorldPartition initialize took 1.142 ms (total: 162.430 ms)
+[2025.10.09-18.21.56:565][576]LogPlayLevel: PIE: World Init took: (0.002861s)
+[2025.10.09-18.21.56:565][576]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2025.10.09-18.21.56:565][576]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.09-18.21.56:565][576]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.09-18.21.56:566][576]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.09-18.21.56:566][576]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.09-18.21.56:566][576]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.09-18.21.56:566][576]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.09-18.21.56:566][576]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.09-18.21.56:566][576]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.09-18.21.56:566][576]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.09-18.21.56:566][576]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.09-18.21.56:566][576]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.09-18.21.56:568][576]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.09-18.21.56:597][576]LogAudioMixer: Display: Using Audio Hardware Device LG HDR 4K (NVIDIA High Definition Audio)
+[2025.10.09-18.21.56:597][576]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.09-18.21.56:597][576]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.09-18.21.56:597][576]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.09-18.21.56:598][576]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2025.10.09-18.21.56:598][576]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2025.10.09-18.21.56:600][576]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2025.10.09-18.21.56:600][576]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2025.10.09-18.21.56:600][576]LogInit: FAudioDevice initialized with ID 4.
+[2025.10.09-18.21.56:600][576]LogAudio: Display: Audio Device (ID: 4) registered with world 'Tutorial_GreyBoxing'.
+[2025.10.09-18.21.56:600][576]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2025.10.09-18.21.56:605][576]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.10.09-18.21.56:607][576]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Tutorial_GreyBoxing.Tutorial_GreyBoxing up for play (max tick rate 0) at 2025.10.09-14.21.56
+[2025.10.09-18.21.56:607][576]LogWorld: Bringing up level for play took: 0.001780
+[2025.10.09-18.21.56:609][576]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2025.10.09-18.21.56:612][576]PIE: Server logged in
+[2025.10.09-18.21.56:614][576]PIE: Play in editor total start time 0.087 seconds.
+[2025.10.09-18.21.56:662][577]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.10.09-18.21.57:239][630]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Attacked
+[2025.10.09-18.22.17:783][651]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.09-18.22.17:783][651]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Tutorial_GreyBoxing
+[2025.10.09-18.22.17:783][651]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.10.09-18.22.17:784][651]LogWorld: UWorld::CleanupWorld for Tutorial_GreyBoxing, bSessionEnded=true, bCleanupResources=true
+[2025.10.09-18.22.17:785][651]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-18.22.17:785][651]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Levels/UEDPIE_0_Tutorial_GreyBoxing.Tutorial_GreyBoxing
+[2025.10.09-18.22.17:786][651]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.09-18.22.17:790][651]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-18.22.17:813][651]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.09-18.22.17:813][651]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2025.10.09-18.22.17:813][651]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=4
+[2025.10.09-18.22.17:815][651]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=2
+[2025.10.09-18.22.17:822][651]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2025.10.09-18.22.17:920][652]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2025.10.09-18.22.42:407][794]Cmd: DELETE
+[2025.10.09-18.22.42:407][794]Cmd: ACTOR DELETE
+[2025.10.09-18.22.42:408][794]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.09-18.22.42:436][794]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.10.09-18.22.42:438][794]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2025.10.09-18.22.45:771][ 86]Cmd: DELETE
+[2025.10.09-18.22.45:771][ 86]Cmd: ACTOR DELETE
+[2025.10.09-18.22.45:772][ 86]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.09-18.22.45:799][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2025.10.09-18.22.45:801][ 86]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2025.10.09-18.23.11:757][278]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2025.10.09-18.23.31:273][  9]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_9
+[2025.10.09-18.23.32:083][ 56]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Speaker.BP_Speaker
+[2025.10.09-18.23.32:084][ 56]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_10
+[2025.10.09-18.24.34:309][351]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.09-18.24.34:425][351]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2025.10.09-18.24.34:450][351]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.10.09-18.24.34:474][351]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2025.10.09-18.24.34:483][351]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/8/K0/3YZW0DRCAMNMLPBMEAOW4Z
+[2025.10.09-18.24.34:483][351]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/3YZW0DRCAMNMLPBMEAOW4Z4992356F421B1EFAB55CBD961B59B615.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Content/__ExternalActors__/Levels/Tutorial_GreyBoxing/8/K0/3YZW0DRCAMNMLPBMEAOW4Z.uasset'
+[2025.10.09-18.24.34:489][351]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/0/SG/I4WYL5YRPSUHKU0VJQIM6D
+[2025.10.09-18.24.34:490][351]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/I4WYL5YRPSUHKU0VJQIM6DAAD826F54BD63DBD98E4CFB313874646.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Content/__ExternalActors__/Levels/Tutorial_GreyBoxing/0/SG/I4WYL5YRPSUHKU0VJQIM6D.uasset'
+[2025.10.09-18.24.34:497][351]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/3/G4/XW4TUO766529UB24NKW2FU
+[2025.10.09-18.24.34:497][351]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/XW4TUO766529UB24NKW2FU36E98C6E470EDFFD2F9B288B0E9AFFA0.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Content/__ExternalActors__/Levels/Tutorial_GreyBoxing/3/G4/XW4TUO766529UB24NKW2FU.uasset'
+[2025.10.09-18.24.34:503][351]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/3/IE/VF51ZNF3T8OD7Z9ZZPCOAO
+[2025.10.09-18.24.34:504][351]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/VF51ZNF3T8OD7Z9ZZPCOAOE11D089745B7454478742E8D783D357A.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Content/__ExternalActors__/Levels/Tutorial_GreyBoxing/3/IE/VF51ZNF3T8OD7Z9ZZPCOAO.uasset'
+[2025.10.09-18.24.34:509][351]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/3/OW/OAD6YDULIPJYNZTFJVFVES
+[2025.10.09-18.24.34:510][351]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/OAD6YDULIPJYNZTFJVFVES760B2B674DB79C27155088849CB26112.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Content/__ExternalActors__/Levels/Tutorial_GreyBoxing/3/OW/OAD6YDULIPJYNZTFJVFVES.uasset'
+[2025.10.09-18.24.34:514][351]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/4/RX/MA5QXAKJYV2YHY74ZF1LVI
+[2025.10.09-18.24.34:515][351]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/MA5QXAKJYV2YHY74ZF1LVIF438B4524D4D592654158792F8248511.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Content/__ExternalActors__/Levels/Tutorial_GreyBoxing/4/RX/MA5QXAKJYV2YHY74ZF1LVI.uasset'
+[2025.10.09-18.24.34:520][351]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/4/S1/MIM2ITGFWA3F0FI6F6GRPS
+[2025.10.09-18.24.34:520][351]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/MIM2ITGFWA3F0FI6F6GRPS73D6DF0946C75A8848C002BA63EF0474.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Content/__ExternalActors__/Levels/Tutorial_GreyBoxing/4/S1/MIM2ITGFWA3F0FI6F6GRPS.uasset'
+[2025.10.09-18.24.34:525][351]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/5/L6/I1A33A8TH66K5ZS914G9RU
+[2025.10.09-18.24.34:526][351]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/I1A33A8TH66K5ZS914G9RUD6E7DE6A4EC5B37D6FD5E0ADECBE607C.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Content/__ExternalActors__/Levels/Tutorial_GreyBoxing/5/L6/I1A33A8TH66K5ZS914G9RU.uasset'
+[2025.10.09-18.24.34:530][351]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/6/ZB/W3LPQ0V1XCFWUFZUYEDKJZ
+[2025.10.09-18.24.34:531][351]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/W3LPQ0V1XCFWUFZUYEDKJZ9181D94C4F215E733D050CB06C15FAB3.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Content/__ExternalActors__/Levels/Tutorial_GreyBoxing/6/ZB/W3LPQ0V1XCFWUFZUYEDKJZ.uasset'
+[2025.10.09-18.24.34:535][351]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/A/5Z/R5NAEKGZTIPJOESGQLQUKI
+[2025.10.09-18.24.34:535][351]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/R5NAEKGZTIPJOESGQLQUKICDD75B6D4C7142243E4E449B71B92902.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Content/__ExternalActors__/Levels/Tutorial_GreyBoxing/A/5Z/R5NAEKGZTIPJOESGQLQUKI.uasset'
+[2025.10.09-18.24.34:540][351]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/B/J5/5XDEAW2W8AH0DSSBZMHWCI
+[2025.10.09-18.24.34:541][351]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/5XDEAW2W8AH0DSSBZMHWCICD6E5E32478549F69D6C2889D32857D8.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Content/__ExternalActors__/Levels/Tutorial_GreyBoxing/B/J5/5XDEAW2W8AH0DSSBZMHWCI.uasset'
+[2025.10.09-18.24.34:546][351]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/D/7R/J6JJ4UVK7FO2S1R13A36RF
+[2025.10.09-18.24.34:546][351]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/J6JJ4UVK7FO2S1R13A36RF7CDEADC144E973C667EB7DA87BEA1698.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Content/__ExternalActors__/Levels/Tutorial_GreyBoxing/D/7R/J6JJ4UVK7FO2S1R13A36RF.uasset'
+[2025.10.09-18.24.34:553][351]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/D/O8/JICFSPVX3X2WTORCM7RSL8
+[2025.10.09-18.24.34:553][351]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/JICFSPVX3X2WTORCM7RSL81FC71E134A75987D18CC75834595E2CC.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Content/__ExternalActors__/Levels/Tutorial_GreyBoxing/D/O8/JICFSPVX3X2WTORCM7RSL8.uasset'
+[2025.10.09-18.24.34:558][351]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/E/AL/1JATGOIIN8CWF4PBU7FIQM
+[2025.10.09-18.24.34:559][351]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/1JATGOIIN8CWF4PBU7FIQM8E1E63214B7504B983CE2BAAD5F14A6D.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Content/__ExternalActors__/Levels/Tutorial_GreyBoxing/E/AL/1JATGOIIN8CWF4PBU7FIQM.uasset'
+[2025.10.09-18.24.34:567][351]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/2/KP/Z69XR0H3I49QGKG3DURR34
+[2025.10.09-18.24.34:567][351]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Z69XR0H3I49QGKG3DURR34E43496A14DF8E43805BAA390F5DA814A.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Content/__ExternalActors__/Levels/Tutorial_GreyBoxing/2/KP/Z69XR0H3I49QGKG3DURR34.uasset'
+[2025.10.09-18.24.34:574][351]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/C/ES/W23GSLDSZN5WSMIOWUBWCW
+[2025.10.09-18.24.34:574][351]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/W23GSLDSZN5WSMIOWUBWCW589950C14B1B0AE0FC8B1791354A40B4.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Content/__ExternalActors__/Levels/Tutorial_GreyBoxing/C/ES/W23GSLDSZN5WSMIOWUBWCW.uasset'
+[2025.10.09-18.24.34:584][351]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/3/XE/DUWTSRBU4ARDFNAH6VP2R2
+[2025.10.09-18.24.34:584][351]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/DUWTSRBU4ARDFNAH6VP2R24D4A419E470B834C98A3FAA037BAAD0F.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Content/__ExternalActors__/Levels/Tutorial_GreyBoxing/3/XE/DUWTSRBU4ARDFNAH6VP2R2.uasset'
+[2025.10.09-18.24.34:590][351]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/E/7X/B215TCICXEMY1GC51NWC7A
+[2025.10.09-18.24.34:590][351]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/B215TCICXEMY1GC51NWC7A8330651C489D844473262887F2979133.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Content/__ExternalActors__/Levels/Tutorial_GreyBoxing/E/7X/B215TCICXEMY1GC51NWC7A.uasset'
+[2025.10.09-18.24.34:594][351]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/C/63/51XSXJ398ZCAYIWBTHRAV7
+[2025.10.09-18.24.34:595][351]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/51XSXJ398ZCAYIWBTHRAV7B0A939274835729147948693BAB4D039.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Content/__ExternalActors__/Levels/Tutorial_GreyBoxing/C/63/51XSXJ398ZCAYIWBTHRAV7.uasset'
+[2025.10.09-18.24.34:599][351]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/D/I3/K4YHVE4XOU549JMKKM8HMM
+[2025.10.09-18.24.34:599][351]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/K4YHVE4XOU549JMKKM8HMM3EAB5F6C466DC51A7B3F0E8C9CD896CF.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Content/__ExternalActors__/Levels/Tutorial_GreyBoxing/D/I3/K4YHVE4XOU549JMKKM8HMM.uasset'
+[2025.10.09-18.24.34:607][351]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/0/UP/7HQB2TOQP7OLHCJZPF0HB7
+[2025.10.09-18.24.34:607][351]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/7HQB2TOQP7OLHCJZPF0HB73C58D37A4DEB1BA2D4B24ABF8DFFCA7E.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Content/__ExternalActors__/Levels/Tutorial_GreyBoxing/0/UP/7HQB2TOQP7OLHCJZPF0HB7.uasset'
+[2025.10.09-18.24.34:630][351]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/7/1Q/YWJ0282QT4R3ML8483LPWI
+[2025.10.09-18.24.34:630][351]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/YWJ0282QT4R3ML8483LPWI91E834B04489A364562AB38626E7D03A.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Content/__ExternalActors__/Levels/Tutorial_GreyBoxing/7/1Q/YWJ0282QT4R3ML8483LPWI.uasset'
+[2025.10.09-18.24.34:636][351]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/3/LY/3IO11DLN9W10X8Y8JDMYL3
+[2025.10.09-18.24.34:636][351]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/3IO11DLN9W10X8Y8JDMYL3110961714C85B6176BC2FA969B5C1602.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Content/__ExternalActors__/Levels/Tutorial_GreyBoxing/3/LY/3IO11DLN9W10X8Y8JDMYL3.uasset'
+[2025.10.09-18.24.34:641][351]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/C/VO/ZGRRBQR2X5BGRT6TOH4647
+[2025.10.09-18.24.34:641][351]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/ZGRRBQR2X5BGRT6TOH4647811ED8C94F6F330A47357B9B89FFA66E.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Content/__ExternalActors__/Levels/Tutorial_GreyBoxing/C/VO/ZGRRBQR2X5BGRT6TOH4647.uasset'
+[2025.10.09-18.24.34:644][351]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/D/FR/869YQQL8LMW7FUG1DOQI13
+[2025.10.09-18.24.34:644][351]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/869YQQL8LMW7FUG1DOQI130267B10247BA5B56767069A92C00023D.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Content/__ExternalActors__/Levels/Tutorial_GreyBoxing/D/FR/869YQQL8LMW7FUG1DOQI13.uasset'
+[2025.10.09-18.24.34:648][351]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/2/2W/JP209Q4KJXLYBD5YDNJ71G
+[2025.10.09-18.24.34:648][351]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/JP209Q4KJXLYBD5YDNJ71GCBAD6446464D558E19CB3989356DC8FC.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Content/__ExternalActors__/Levels/Tutorial_GreyBoxing/2/2W/JP209Q4KJXLYBD5YDNJ71G.uasset'
+[2025.10.09-18.24.34:653][351]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/3/3O/QDS72OCRGVK82OCMOD9V5H
+[2025.10.09-18.24.34:653][351]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/QDS72OCRGVK82OCMOD9V5H13F85BC9414CB28266BD7EAFA30EBEDC.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Content/__ExternalActors__/Levels/Tutorial_GreyBoxing/3/3O/QDS72OCRGVK82OCMOD9V5H.uasset'
+[2025.10.09-18.24.34:658][351]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/B/DE/E52DQWWZX4QHIS0I8CAW5X
+[2025.10.09-18.24.34:658][351]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/E52DQWWZX4QHIS0I8CAW5X2A2997A34312CBE851215EA992175F88.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Content/__ExternalActors__/Levels/Tutorial_GreyBoxing/B/DE/E52DQWWZX4QHIS0I8CAW5X.uasset'
+[2025.10.09-18.24.34:662][351]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/6/04/4KO9Y6EKZ0RDFJKE9DBK9S
+[2025.10.09-18.24.34:662][351]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/4KO9Y6EKZ0RDFJKE9DBK9SC6AE28B54B11F8C8D3F7F2BEBE518204.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Content/__ExternalActors__/Levels/Tutorial_GreyBoxing/6/04/4KO9Y6EKZ0RDFJKE9DBK9S.uasset'
+[2025.10.09-18.24.34:666][351]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/9/3Y/QQL3RB22MF8DGMKD5TJRP0
+[2025.10.09-18.24.34:666][351]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/QQL3RB22MF8DGMKD5TJRP0E5B67C3E409FCA898E1DE0897C94FDAB.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Content/__ExternalActors__/Levels/Tutorial_GreyBoxing/9/3Y/QQL3RB22MF8DGMKD5TJRP0.uasset'
+[2025.10.09-18.24.34:671][351]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/1/UL/KPDXPOH2OSP8JNJ729WH8B
+[2025.10.09-18.24.34:671][351]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/KPDXPOH2OSP8JNJ729WH8B3C480C2244ED5FB2A34046B7F890A6FF.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Content/__ExternalActors__/Levels/Tutorial_GreyBoxing/1/UL/KPDXPOH2OSP8JNJ729WH8B.uasset'
+[2025.10.09-18.24.34:674][351]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Tutorial_GreyBoxing/1/GO/XE773A7U8PY0HCI9SW7MBT
+[2025.10.09-18.24.34:674][351]LogSavePackage: Moving 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/XE773A7U8PY0HCI9SW7MBT6C7E1547404303382565CEB7C381A855.tmp' to 'C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Content/__ExternalActors__/Levels/Tutorial_GreyBoxing/1/GO/XE773A7U8PY0HCI9SW7MBT.uasset'
+[2025.10.09-18.24.34:683][351]LogFileHelpers: InternalPromptForCheckoutAndSave took 374.135 ms
+[2025.10.09-18.24.34:757][351]LogContentValidation: Display: Starting to validate 32 assets
+[2025.10.09-18.24.34:757][351]LogContentValidation: Enabled validators:
+[2025.10.09-18.24.34:757][351]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.09-18.24.34:757][351]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.09-18.24.34:757][351]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.09-18.24.34:757][351]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.09-18.24.34:757][351]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.09-18.24.34:757][351]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.09-18.24.34:757][351]AssetCheck: /Game/Levels/Tutorial_GreyBoxing Validating asset
+[2025.10.09-18.24.34:817][351]LogSourceControl: Display: Uncontrolled Changelist persistency file saved C:/Users/dda/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/SourceControl/UncontrolledChangelists.json
+[2025.10.09-18.24.36:900][548]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2025.10.09-18.24.36:947][548]LogStall: Shutdown...
+[2025.10.09-18.24.36:947][548]LogStall: Shutdown complete.
+[2025.10.09-18.24.36:981][548]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.10.09-18.24.36:981][548]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-18.24.37:042][548]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.10.09-18.24.37:042][548]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.10.09-18.24.37:042][548]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-18.24.37:118][548]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.10.09-18.24.37:118][548]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2025.10.09-18.24.37:118][548]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-18.24.37:193][548]LogSlate: Window 'Zombie_Movement - Unreal Editor' being destroyed
+[2025.10.09-18.24.37:425][548]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.10.09-18.24.37:436][548]Cmd: QUIT_EDITOR
+[2025.10.09-18.24.37:436][549]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.10.09-18.24.37:441][549]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.10.09-18.24.37:441][549]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.10.09-18.24.37:441][549]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.10.09-18.24.37:443][549]LogWorld: UWorld::CleanupWorld for Tutorial_GreyBoxing, bSessionEnded=true, bCleanupResources=true
+[2025.10.09-18.24.37:443][549]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.10.09-18.24.37:443][549]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-18.24.37:443][549]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Levels/Tutorial_GreyBoxing.Tutorial_GreyBoxing
+[2025.10.09-18.24.37:452][549]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.10.09-18.24.37:452][549]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2025.10.09-18.24.37:452][549]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.10.09-18.24.37:455][549]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.10.09-18.24.37:455][549]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-18.24.37:458][549]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.10.09-18.24.37:458][549]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-18.24.37:461][549]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2025.10.09-18.24.37:461][549]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-18.24.37:464][549]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2025.10.09-18.24.37:464][549]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-18.24.37:466][549]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.10.09-18.24.37:466][549]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-18.24.37:469][549]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.10.09-18.24.37:469][549]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.09-18.24.37:471][549]LogRuntimeTelemetry: Recording EnginePreExit events
+[2025.10.09-18.24.37:471][549]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.10.09-18.24.37:475][549]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2025.10.09-18.24.37:784][549]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.10.09-18.24.37:784][549]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.10.09-18.24.37:784][549]LogAudio: Display: Audio Device unregistered from world 'Tutorial_GreyBoxing'.
+[2025.10.09-18.24.37:784][549]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.10.09-18.24.37:784][549]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=4
+[2025.10.09-18.24.37:786][549]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=2
+[2025.10.09-18.24.37:792][549]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.10.09-18.24.37:792][549]LogAudio: Display: Audio Device Manager Shutdown
+[2025.10.09-18.24.37:794][549]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2025.10.09-18.24.37:796][549]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.10.09-18.24.37:796][549]LogExit: Preparing to exit.
+[2025.10.09-18.24.37:832][549]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.10.09-18.24.37:834][549]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.09-18.24.37:834][549]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.09-18.24.37:834][549]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.09-18.24.37:834][549]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.09-18.24.37:835][549]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.09-18.24.37:835][549]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.09-18.24.37:835][549]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.09-18.24.37:835][549]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.09-18.24.37:835][549]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.09-18.24.37:835][549]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.09-18.24.37:835][549]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.09-18.24.37:835][549]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.09-18.24.37:835][549]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.09-18.24.37:835][549]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.09-18.24.37:835][549]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.09-18.24.37:835][549]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.09-18.24.37:835][549]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.09-18.24.37:835][549]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.09-18.24.37:835][549]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.09-18.24.37:835][549]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.09-18.24.37:835][549]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.09-18.24.39:065][549]LogEditorDataStorage: Deinitializing
+[2025.10.09-18.24.39:212][549]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.10.09-18.24.39:234][549]LogExit: Editor shut down
+[2025.10.09-18.24.39:240][549]LogExit: Transaction tracking system shut down
+[2025.10.09-18.24.39:445][549]LogExit: Object subsystem successfully closed.
+[2025.10.09-18.24.39:560][549]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.10.09-18.24.39:618][549]LogMemoryProfiler: Shutdown
+[2025.10.09-18.24.39:618][549]LogNetworkingProfiler: Shutdown
+[2025.10.09-18.24.39:618][549]LoadingProfiler: Shutdown
+[2025.10.09-18.24.39:618][549]LogTimingProfiler: Shutdown
+[2025.10.09-18.24.39:618][549]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2025.10.09-18.24.39:618][549]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2025.10.09-18.24.39:926][549]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.10.09-18.24.39:926][549]RenderDocPlugin: plugin has been unloaded.
+[2025.10.09-18.24.39:962][549]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.10.09-18.24.39:962][549]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD5A17137-416E-AC45-2651-1A92D2D2930C%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=5572a7bf4f192209fc03ab94a9636e4d%7C0b2d5e62672149eeb27e0332ad09c2d2%7C1b247439-4f51-4489-9743-971b9faf9735&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.10.09-18.24.40:523][549]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.10.09-18.24.40:523][549]LogNFORDenoise: NFORDenoise function shutting down
+[2025.10.09-18.24.40:523][549]LogXGEController: Cleaning working directory: C:/Users/dda/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2025.10.09-18.24.40:526][549]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.10.09-18.24.40:526][549]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.10.09-18.24.40:526][549]LogPakFile: Destroying PakPlatformFile
+[2025.10.09-18.24.40:940][549]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.10.09-18.24.41:015][549]LogExit: Exiting.
+[2025.10.09-18.24.41:069][549]Log file closed, 10/09/25 14:24:41
