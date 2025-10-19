@@ -879,3 +879,282 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.10.19-21.59.48:776][  0]LogAssetRegistry: Display: AssetDataGatherer spent 0.000s loading caches ../../../../../../Users/kaede/Documents/GitHub/PunkRockZombies/Zombie_Movement/Intermediate/CachedAssetRegistry_*.bin.
 [2025.10.19-21.59.49:023][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
 [2025.10.19-21.59.49:023][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2025.10.19-21.59.49:066][  0]LogDeviceProfileManager: Active device profile: [000002DE5F072F80][000002DDEC6E0000 66] WindowsEditor
+[2025.10.19-21.59.49:066][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2025.10.19-21.59.49:069][  0]LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.19-21.59.49:077][  0]LogTextureEncodingSettings: Display: Texture Encode Speed: FinalIfAvailable (editor).
+[2025.10.19-21.59.49:078][  0]LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2025.10.19-21.59.49:078][  0]LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+[2025.10.19-21.59.49:107][  0]LogTurnkeySupport: Turnkey Platform: Win64: (Status=Valid, MinAllowed_Sdk=10.0.19041.0, MaxAllowed_Sdk=10.9.99999.0, Current_Sdk=10.0.22621.0, Allowed_AutoSdk=10.0.22621.0, Current_AutoSdk=, Flags="InstalledSdk_ValidVersionExists, Sdk_HasBestVersion")
+[2025.10.19-21.59.49:108][  0]LogTurnkeySupport: Running Turnkey device detection: ' -ScriptsForProject="C:/Users/kaede/Documents/GitHub/PunkRockZombies/Zombie_Movement/Zombie_Movement.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/kaede/Documents/GitHub/PunkRockZombies/Zombie_Movement/Intermediate/TurnkeyReport_1.log" -log="C:/Users/kaede/Documents/GitHub/PunkRockZombies/Zombie_Movement/Intermediate/TurnkeyLog_1.log" -project="C:/Users/kaede/Documents/GitHub/PunkRockZombies/Zombie_Movement/Zombie_Movement.uproject"  -Device=Win64@DESKTOP-MNB355M'
+[2025.10.19-21.59.49:108][  0]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""C:/Program Files/Epic Games/UE_5.6/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="C:/Users/kaede/Documents/GitHub/PunkRockZombies/Zombie_Movement/Zombie_Movement.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/kaede/Documents/GitHub/PunkRockZombies/Zombie_Movement/Intermediate/TurnkeyReport_1.log" -log="C:/Users/kaede/Documents/GitHub/PunkRockZombies/Zombie_Movement/Intermediate/TurnkeyLog_1.log" -project="C:/Users/kaede/Documents/GitHub/PunkRockZombies/Zombie_Movement/Zombie_Movement.uproject"  -Device=Win64@DESKTOP-MNB355M" -nocompile -nocompileuat ]
+[2025.10.19-21.59.49:169][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.10.19-21.59.49:177][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness because of a recursive sync load
+[2025.10.19-21.59.49:177][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.10.19-21.59.49:177][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.10.19-21.59.49:184][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec because of a recursive sync load
+[2025.10.19-21.59.49:184][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.10.19-21.59.49:184][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.10.19-21.59.49:214][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/EngineMaterials/T_Default_Material_Grid_M because of a recursive sync load
+[2025.10.19-21.59.49:214][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/EngineMaterials/T_Default_Material_Grid_N because of a recursive sync load
+[2025.10.19-21.59.49:216][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade because of a recursive sync load
+[2025.10.19-21.59.49:217][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.10.19-21.59.49:232][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.10.19-21.59.49:240][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.10.19-21.59.49:254][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultDiffuse because of a recursive sync load
+[2025.10.19-21.59.49:254][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components because of a recursive sync load
+[2025.10.19-21.59.49:256][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultPostProcessMaterial because of a recursive sync load
+[2025.10.19-21.59.49:256][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.10.19-21.59.49:290][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultDeferredDecalMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultLightFunctionMaterial because of a recursive sync load
+[2025.10.19-21.59.49:290][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.10.19-21.59.49:311][  0]LogStreaming: Display: Package /Engine/EngineMaterials/WorldGridMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultDeferredDecalMaterial because of a recursive sync load
+[2025.10.19-21.59.49:311][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.10.19-21.59.49:329][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/EngineMaterials/WorldGridMaterial because of a recursive sync load
+[2025.10.19-21.59.49:329][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.10.19-21.59.49:562][  0]LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+[2025.10.19-21.59.49:562][  0]LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+[2025.10.19-21.59.49:562][  0]LogMeshReduction: Display: Using ProxyLODMeshReduction for automatic mesh merging
+[2025.10.19-21.59.49:562][  0]LogMeshReduction: Display: No distributed automatic mesh merging module available
+[2025.10.19-21.59.49:562][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2025.10.19-21.59.50:114][  0]LogTurnkeySupport: Completed device detection: Code = 0
+[2025.10.19-21.59.50:827][  0]LogConfig: Applying CVar settings from Section [/Script/CQTest.CQTestSettings] File [Engine]
+[2025.10.19-21.59.50:941][  0]LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2025.10.19-21.59.50:941][  0]LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2025.10.19-21.59.50:941][  0]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: NetActorFactory name: NetActorFactory id: 0
+[2025.10.19-21.59.50:941][  0]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: NetSubObjectFactory name: NetSubObjectFactory id: 1
+[2025.10.19-21.59.50:945][  0]LogLiveCoding: Display: Starting LiveCoding
+[2025.10.19-21.59.50:945][  0]LogLiveCoding: Display: LiveCodingConsole Arguments: UnrealEditor Win64 Development
+[2025.10.19-21.59.50:946][  0]LogLiveCoding: Display: First instance in process group "UE_Zombie_Movement_0x530df2b7", spawning console
+[2025.10.19-21.59.50:949][  0]LogLiveCoding: Display: Waiting for server
+[2025.10.19-21.59.50:966][  0]LogSlate: Border
+[2025.10.19-21.59.50:966][  0]LogSlate: BreadcrumbButton
+[2025.10.19-21.59.50:966][  0]LogSlate: Brushes.Title
+[2025.10.19-21.59.50:966][  0]LogSlate: ColorPicker.ColorThemes
+[2025.10.19-21.59.50:966][  0]LogSlate: Default
+[2025.10.19-21.59.50:966][  0]LogSlate: Icons.Save
+[2025.10.19-21.59.50:966][  0]LogSlate: Icons.Toolbar.Settings
+[2025.10.19-21.59.50:966][  0]LogSlate: ListView
+[2025.10.19-21.59.50:966][  0]LogSlate: SoftwareCursor_CardinalCross
+[2025.10.19-21.59.50:966][  0]LogSlate: SoftwareCursor_Grab
+[2025.10.19-21.59.50:966][  0]LogSlate: TableView.DarkRow
+[2025.10.19-21.59.50:966][  0]LogSlate: TableView.Row
+[2025.10.19-21.59.50:966][  0]LogSlate: TreeView
+[2025.10.19-21.59.51:067][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+[2025.10.19-21.59.51:070][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 3.038 ms
+[2025.10.19-21.59.51:090][  0]LogInit: XR: Instanced Stereo Rendering is Disabled
+[2025.10.19-21.59.51:091][  0]LogInit: XR: MultiViewport is Disabled
+[2025.10.19-21.59.51:091][  0]LogInit: XR: Mobile Multiview is Disabled
+[2025.10.19-21.59.51:105][  0]LogTurnkeySupport: Turnkey Device: Win64@DESKTOP-MNB355M: (Name=DESKTOP-MNB355M, Type=Computer, Status=Valid, MinAllowed=10.0.19041.0, MaxAllowed=, Current=10.0.19045.0, Flags="Device_InstallSoftwareValid")
+[2025.10.19-21.59.51:151][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2025.10.19-21.59.51:163][  0]LogUdpMessaging: Display: Work queue size set to 1024.
+[2025.10.19-21.59.51:163][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2025.10.19-21.59.51:163][  0]LogUdpMessaging: Display: Unicast socket bound to '0.0.0.0:60199'.
+[2025.10.19-21.59.51:166][  0]LogUdpMessaging: Display: Added local interface '192.168.1.202' to multicast group '230.0.0.1:6666'
+[2025.10.19-21.59.51:169][  0]LogUdpMessaging: Display: Using asynchronous task graph for message deserialization.
+[2025.10.19-21.59.51:174][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2025.10.19-21.59.51:621][  0]LogNNERuntimeORT: Available graphics and compute adapters:
+[2025.10.19-21.59.51:621][  0]LogNNERuntimeORT: No NPU adapter found with attribute DXCORE_ADAPTER_ATTRIBUTE_D3D12_GENERIC_ML (Windows 11 Version 24H2 or newer)!
+[2025.10.19-21.59.51:621][  0]LogNNERuntimeORT: Available graphics and compute adapters:
+[2025.10.19-21.59.51:621][  0]LogNNERuntimeORT: 0: NVIDIA GeForce RTX 3070 (Compute, Graphics)
+[2025.10.19-21.59.51:621][  0]LogNNERuntimeORT: 1: Microsoft Basic Render Driver (Compute, Graphics)
+[2025.10.19-21.59.51:621][  0]LogNNERuntimeORT: No NPU adapter found!
+[2025.10.19-21.59.51:621][  0]LogNNERuntimeORT: MakeRuntimeORTDml:
+[2025.10.19-21.59.51:621][  0]LogNNERuntimeORT:   DirectML:  yes
+[2025.10.19-21.59.51:621][  0]LogNNERuntimeORT:   RHI D3D12: yes
+[2025.10.19-21.59.51:621][  0]LogNNERuntimeORT:   D3D12:     yes
+[2025.10.19-21.59.51:621][  0]LogNNERuntimeORT:   NPU:       no
+[2025.10.19-21.59.51:621][  0]LogNNERuntimeORT: Interface availability:
+[2025.10.19-21.59.51:621][  0]LogNNERuntimeORT:   GPU: yes
+[2025.10.19-21.59.51:621][  0]LogNNERuntimeORT:   RDG: yes
+[2025.10.19-21.59.51:621][  0]LogNNERuntimeORT:   NPU: no
+[2025.10.19-21.59.51:621][  0]LogNNERuntimeORT: Available graphics and compute adapters:
+[2025.10.19-21.59.51:621][  0]LogNNERuntimeORT: No NPU adapter found with attribute DXCORE_ADAPTER_ATTRIBUTE_D3D12_GENERIC_ML (Windows 11 Version 24H2 or newer)!
+[2025.10.19-21.59.51:622][  0]LogNNERuntimeORT: Available graphics and compute adapters:
+[2025.10.19-21.59.51:622][  0]LogNNERuntimeORT: 0: NVIDIA GeForce RTX 3070 (Compute, Graphics)
+[2025.10.19-21.59.51:622][  0]LogNNERuntimeORT: 1: Microsoft Basic Render Driver (Compute, Graphics)
+[2025.10.19-21.59.51:622][  0]LogNNERuntimeORT: No NPU adapter found!
+[2025.10.19-21.59.51:732][  0]LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2025.10.19-21.59.51:732][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2025.10.19-21.59.51:749][  0]LogMetaSound: MetaSound Engine Initialized
+[2025.10.19-21.59.51:943][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 02C10609AB9D4F458000000000007F00 | Instance: 468C5C044C723E20316BD0B5CF4F9DA9 (DESKTOP-MNB355M-4768).
+[2025.10.19-21.59.51:995][  0]LogLiveCoding: Display: Successfully initialized, removing startup thread
+[2025.10.19-21.59.52:018][  0]LogChaosVDEditor: [FChaosVDExtensionsManager::RegisterExtension] Registering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2025.10.19-21.59.52:018][  0]LogChaosVDEditor: [FChaosVDExtensionsManager::RegisterExtension] Registering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2025.10.19-21.59.52:025][  0]LogTimingProfiler: Initialize
+[2025.10.19-21.59.52:025][  0]LogTimingProfiler: OnSessionChanged
+[2025.10.19-21.59.52:025][  0]LoadingProfiler: Initialize
+[2025.10.19-21.59.52:025][  0]LoadingProfiler: OnSessionChanged
+[2025.10.19-21.59.52:025][  0]LogNetworkingProfiler: Initialize
+[2025.10.19-21.59.52:025][  0]LogNetworkingProfiler: OnSessionChanged
+[2025.10.19-21.59.52:025][  0]LogMemoryProfiler: Initialize
+[2025.10.19-21.59.52:025][  0]LogMemoryProfiler: OnSessionChanged
+[2025.10.19-21.59.52:439][  0]LogConfig: Applying CVar settings from Section [/Script/NNEDenoiser.NNEDenoiserSettings] File [Engine]
+[2025.10.19-21.59.52:441][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2025.10.19-21.59.52:444][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2025.10.19-21.59.52:444][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2025.10.19-21.59.52:505][  0]SourceControl: Revision control is disabled
+[2025.10.19-21.59.52:512][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Icons/doc_16x.png' error.
+[2025.10.19-21.59.52:512][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Content/Slate/Icons/doc_16x.png] file: [../../../Engine/Content/Slate/Icons/doc_16x.png]
+[2025.10.19-21.59.52:512][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Common/ButtonHoverHint.png' error.
+[2025.10.19-21.59.52:512][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Content/Slate/Common/ButtonHoverHint.png] file: [../../../Engine/Content/Slate/Common/ButtonHoverHint.png]
+[2025.10.19-21.59.52:527][  0]SourceControl: Revision control is disabled
+[2025.10.19-21.59.52:559][  0]LogCollectionManager: Loaded 0 collections in 0.002095 seconds
+[2025.10.19-21.59.52:561][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kaede/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/Collections/' took 0.00s
+[2025.10.19-21.59.52:563][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kaede/Documents/GitHub/PunkRockZombies/Zombie_Movement/Content/Developers/kaede/Collections/' took 0.00s
+[2025.10.19-21.59.52:565][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kaede/Documents/GitHub/PunkRockZombies/Zombie_Movement/Content/Collections/' took 0.00s
+[2025.10.19-21.59.52:614][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png' error.
+[2025.10.19-21.59.52:614][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png] file: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png]
+[2025.10.19-21.59.52:614][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png' error.
+[2025.10.19-21.59.52:614][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png] file: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png]
+[2025.10.19-21.59.52:636][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Icons/doc_16x.png' error.
+[2025.10.19-21.59.52:636][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Common/ButtonHoverHint.png' error.
+[2025.10.19-21.59.52:636][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Content/Slate/Common/ButtonHoverHint.png] file: [../../../Engine/Content/Slate/Common/ButtonHoverHint.png]
+[2025.10.19-21.59.52:636][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Content/Slate/Icons/doc_16x.png] file: [../../../Engine/Content/Slate/Icons/doc_16x.png]
+[2025.10.19-21.59.52:657][  0]LogEOSSDK: LogEOS: [Boot] EOSSDK Version 1.17.0-41373641 booting at 2025-10-19T21:59:52.657Z using C
+[2025.10.19-21.59.52:658][  0]LogEOSSDK: LogEOS: [Boot] EOSSDK Platform Properties [OS=Windows/10.0.19041.5915.64bit, ClientId=xyza7891REBVsEqSJRRNXmlS7EQHM459, ProductId=86f32f1151354e7cb39c12f8ab2c22a3, SandboxId=a01927f7421a4d4995673fe30ef46945, DeploymentId=a652a72ea1664dcab3a467891eea5f30, ProductName=Zombie_Movement, ProductVersion=++UE5+Release-5.6-CL-44394996, IsServer=false, Flags=DisableOverlay]
+[2025.10.19-21.59.52:658][  0]LogEOSSDK: LogEOSAnalytics: Start Session (User: ...)
+[2025.10.19-21.59.52:658][  0]LogEOSSDK: LogEOSOverlay: Overlay will not load, because it was explicitly disabled when creating the platform
+[2025.10.19-21.59.52:663][  0]LogEOSSDK: LogEOSAntiCheat: [AntiCheatClient] Anti-cheat client not available. Verify that the game was started using the anti-cheat bootstrapper if you intend to use it.
+[2025.10.19-21.59.52:663][  0]LogEOSSDK: LogEOS: SetApplicationStatus - OldStatus: EOS_AS_Foreground, NewStatus: EOS_AS_Foreground, Current Time: 0001.01.01-00.00.00
+[2025.10.19-21.59.52:663][  0]LogEOSSDK: LogEOS: SetNetworkStatus - OldStatus: EOS_NS_Online, NewStatus: EOS_NS_Online
+[2025.10.19-21.59.52:663][  0]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 0.000055
+[2025.10.19-21.59.52:731][  0]LogUObjectArray: 42379 objects as part of root set at end of initial load.
+[2025.10.19-21.59.52:731][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2025.10.19-21.59.52:904][  0]LogEngine: Initializing Engine...
+[2025.10.19-21.59.53:207][  0]LogStylusInput: Initializing StylusInput subsystem.
+[2025.10.19-21.59.53:207][  0]LogTedsSettings: UTedsSettingsEditorSubsystem::Initialize
+[2025.10.19-21.59.53:704][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.11.dll
+[2025.10.19-21.59.53:757][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.12.dll
+[2025.10.19-21.59.53:794][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled
+[2025.10.19-21.59.53:803][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2025.10.19-21.59.53:803][  0]LogInit: Texture streaming: Enabled
+[2025.10.19-21.59.53:808][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::StartSession ( APIServer = https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data. AppVersion = 5.6.1-44394996+++UE5+Release-5.6 )
+[2025.10.19-21.59.53:819][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2025.10.19-21.59.53:821][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2025.10.19-21.59.53:827][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2025.10.19-21.59.53:827][  0]LogAudio: Display: Audio Device Manager Initialized
+[2025.10.19-21.59.53:827][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2025.10.19-21.59.53:827][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.19-21.59.53:827][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.19-21.59.53:827][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.19-21.59.53:827][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.19-21.59.53:827][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.19-21.59.53:827][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.19-21.59.53:827][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.19-21.59.53:827][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.19-21.59.53:827][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.19-21.59.53:827][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.19-21.59.53:827][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.19-21.59.53:832][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.19-21.59.53:861][  0]LogAudioMixer: Display: Using Audio Hardware Device Headphones (High Definition Audio Device)
+[2025.10.19-21.59.53:862][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.19-21.59.53:893][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.19-21.59.53:893][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.19-21.59.53:894][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2025.10.19-21.59.53:894][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.10.19-21.59.53:896][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.10.19-21.59.53:896][  0]LogInit: FAudioDevice initialized with ID 1.
+[2025.10.19-21.59.53:896][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2025.10.19-21.59.53:897][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2025.10.19-21.59.53:897][  0]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 1
+[2025.10.19-21.59.53:902][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2025.10.19-21.59.53:908][  0]LogInit: Undo buffer set to 256 MB
+[2025.10.19-21.59.53:909][  0]LogInit: Transaction tracking system initialized
+[2025.10.19-21.59.53:940][  0]LogSourceControl: Display: Uncontrolled Changelist persistency file loaded ../../../../../../Users/kaede/Documents/GitHub/PunkRockZombies/Zombie_Movement/Saved/SourceControl/UncontrolledChangelists.json
+[2025.10.19-21.59.53:991][  0]LocalizationService: Localization service is disabled
+[2025.10.19-21.59.54:534][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kaede/Documents/GitHub/PunkRockZombies/Zombie_Movement/Content/' took 0.03s
+[2025.10.19-21.59.54:629][  0]LogPython: Python enabled via CVar 'Engine.Python.IsEnabledByDefault'
+[2025.10.19-21.59.54:629][  0]LogPython: Using Python 3.11.8
+[2025.10.19-21.59.54:717][  0]LogPython: Display: No pip-enabled plugins with python dependencies found, skipping
+[2025.10.19-21.59.55:096][  0]LogRenderer: Requested compilation of Path Tracing RTPSOs (8 permutations).
+[2025.10.19-21.59.55:228][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2025.10.19-21.59.55:403][  0]LogEditorDataStorage: Initializing
+[2025.10.19-21.59.55:408][  0]LogEditorDataStorage: Initialized
+[2025.10.19-21.59.55:419][  0]LogCore: Display: GameplayInsights module auto-connecting to local trace server...
+[2025.10.19-21.59.55:436][  0]LogAssetRegistry: Display: Triggering cache save on discovery complete
+[2025.10.19-21.59.55:570][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2025.10.19-21.59.55:576][  0]SourceControl: Revision control is disabled
+[2025.10.19-21.59.55:576][  0]LogUnrealEdMisc: Loading editor; pre map load, took 25.056
+[2025.10.19-21.59.55:579][  0]Cmd: MAP LOAD FILE="../../../../../../Users/kaede/Documents/GitHub/PunkRockZombies/Zombie_Movement/Content/Levels/Tutorial_GreyBoxing.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.10.19-21.59.55:584][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2025.10.19-21.59.55:584][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.19-21.59.55:649][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.19-21.59.55:653][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.10.19-21.59.56:134][  0]LogD3D12RHI: Compiled PathTracingMainRG for RTPSO in 1038.26 ms.
+[2025.10.19-21.59.56:553][  0]LogAssetRegistry: Display: Asset registry cache written as 70.3 MiB to ../../../../../../Users/kaede/Documents/GitHub/PunkRockZombies/Zombie_Movement/Intermediate/CachedAssetRegistry_*.bin
+[2025.10.19-21.59.57:224][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2025.10.19-21.59.57:225][  0]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.10.19-21.59.57:225][  0]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.19-21.59.57:225][  0]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Levels/Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.19-21.59.57:463][  0]LogWorldPartition: Display: WorldPartition initialize took 238.354 ms
+[2025.10.19-21.59.57:477][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Tutorial_GreyBoxing'.
+[2025.10.19-21.59.57:477][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world Tutorial_GreyBoxing
+[2025.10.19-21.59.57:479][  0]LogWorldPartition: ULevel::OnLevelLoaded(Tutorial_GreyBoxing)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.10.19-21.59.57:479][  0]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.19-21.59.57:479][  0]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Levels/Tutorial_GreyBoxing.Tutorial_GreyBoxing, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.19-21.59.58:271][  0]LogClass: Warning: Type mismatch in Player of BTTask_GettargetLocation_C - Previous (ObjectProperty) Current(StructProperty) in package: FObjectReader
+[2025.10.19-21.59.58:387][  0]LogWorldPartition: Display: WorldPartition initialize took 907.565 ms (total: 1.14 sec)
+[2025.10.19-21.59.58:458][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.10.19-21.59.58:459][  0]LogNavigation: Warning: Recreating dtNavMesh instance RecastNavMesh_UAID_7486E222ED1DED8F02-Default due to saved navmesh origin (X=-7300.000 Y=-1350.000 Z=0.000, usually the RecastNavMesh location) not being aligned with tile size (988 uu) 
+[2025.10.19-21.59.58:481][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.10.19-21.59.58:482][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.10.19-21.59.58:482][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.65ms to complete.
+[2025.10.19-21.59.58:506][  0]LogUnrealEdMisc: Total Editor Startup Time, took 27.986
+[2025.10.19-21.59.58:601][  0]LogPlacementMode: Display: The Asset Registry is not yet fully loaded so some placeable classes might be missing.
+[2025.10.19-21.59.58:721][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.19-21.59.58:799][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.19-21.59.58:877][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.19-21.59.58:955][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.19-21.59.59:006][  0]LogPakFile: Initializing PakPlatformFile
+[2025.10.19-21.59.59:014][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2025.10.19-21.59.59:014][  0]LogPakFile: Initializing PakPlatformFile
+[2025.10.19-21.59.59:020][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2025.10.19-21.59.59:021][  0]LogPakFile: Initializing PakPlatformFile
+[2025.10.19-21.59.59:025][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2025.10.19-21.59.59:025][  0]LogPakFile: Initializing PakPlatformFile
+[2025.10.19-21.59.59:034][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2025.10.19-21.59.59:034][  0]LogPakFile: Initializing PakPlatformFile
+[2025.10.19-21.59.59:041][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2025.10.19-21.59.59:042][  0]LogPakFile: Initializing PakPlatformFile
+[2025.10.19-21.59.59:049][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2025.10.19-21.59.59:049][  0]LogPakFile: Initializing PakPlatformFile
+[2025.10.19-21.59.59:057][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2025.10.19-21.59.59:057][  0]LogPakFile: Initializing PakPlatformFile
+[2025.10.19-21.59.59:063][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2025.10.19-21.59.59:064][  0]LogPakFile: Initializing PakPlatformFile
+[2025.10.19-21.59.59:070][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2025.10.19-21.59.59:070][  0]LogPakFile: Initializing PakPlatformFile
+[2025.10.19-21.59.59:075][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2025.10.19-21.59.59:734][  0]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.10.19-21.59.59:737][  0]LogSlate: Took 0.000241 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2025.10.19-21.59.59:739][  0]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2025.10.19-21.59.59:747][  0]LogSlate: Took 0.007257 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2025.10.19-21.59.59:867][  0]LogSlate: Took 0.007321 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.10.19-21.59.59:970][  0]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.10.19-22.00.00:402][  0]LogStall: Startup...
+[2025.10.19-22.00.00:406][  0]LogStall: Startup complete.
+[2025.10.19-22.00.00:422][  0]LogLoad: (Engine Initialization) Total time: 29.90 seconds
+[2025.10.19-22.00.00:760][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2025.10.19-22.00.00:760][  0]LogCsvProfiler: Display: Metadata set : streamingpoolsizemb="1000"
+[2025.10.19-22.00.00:901][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.19-22.00.00:903][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... started...
+[2025.10.19-22.00.01:193][  0]LogPython: registering <class 'ControlRigWorkflows.workflow_deformation_rig_preset.provider'>
+
+[2025.10.19-22.00.01:201][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... took 297.747 ms
+[2025.10.19-22.00.01:517][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/kaede/Documents/GitHub/PunkRockZombies/Zombie_Movement/Content/' took 0.82s
+[2025.10.19-22.00.01:523][  1]LogAssetRegistry: AssetRegistryGather time 0.1438s: AssetDataDiscovery 0.0147s, AssetDataGather 0.0418s, StoreResults 0.0873s. Wall time 12.8030s.
+	NumCachedDirectories 1887. NumUncachedDirectories 28. NumCachedFiles 7944. NumUncachedFiles 4.
+	BackgroundTickInterruptions 0.
+[2025.10.19-22.00.01:561][  1]LogPlacementMode: Display: The Asset Registry is done with its initial scan, the list of placeable classes has been updated.
+[2025.10.19-22.00.01:572][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000000 seconds (updated 0 objects)
+[2025.10.19-22.00.01:573][  1]LogSourceControl: Uncontrolled asset discovery started...
+[2025.10.19-22.00.01:847][  2]LogEOSSDK: LogEOS: SDK Config Platform Update Request Successful, Time: 8.995323
+[2025.10.19-22.00.01:848][  2]LogEOSSDK: LogEOSAnalytics: EOS SDK Analytics disabled for route [1].
+[2025.10.19-22.00.01:849][  2]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9.183554
+[2025.10.19-22.00.02:141][  5]LogSourceControl: Uncontrolled asset discovery finished in 0.567682 seconds (Found 7924 uncontrolled assets)
+[2025.10.19-22.00.03:284][  8]LogEOSSDK: LogEOSAnalytics: Start Session (User: ...)
+[2025.10.19-22.00.03:950][ 10]LogEOSSDK: LogEOS: SDK Config Product Update Request Successful, Time: 10.953914
+[2025.10.19-22.00.03:952][ 10]LogEOSSDK: LogEOS: SDK Config Data - Watermark: -227189215
+[2025.10.19-22.00.03:952][ 10]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10.953914, Update Interval: 319.647827
